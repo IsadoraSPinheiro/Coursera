@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.row{
+  width: 100%;
+}
+
+main{
+  box-sizing: border-box;
+  font-size: 50px;
+  margin: 3%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.col-lg-3{
+  border: solid black 0.2em;
+  background-color: #999;
+  padding: 4%;
+  margin: 1%;
+  position: relative;
+  overflow: visible;
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.name1{
+  border: solid black 0.1em;
+  display: flex;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  background-color: #D59898;
+  width: 30%;
+  padding: 2%;
+  font-size: 15px;
+  justify-content: center;
+  font-weight: bold;}
+
+
+.name2{
+  border: solid black 0.1em;
+  display: flex;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  background-color: #C14543;
+  width: 30%;
+  padding: 2%;
+  font-size: 15px;
+  justify-content: center;
+  font-weight: bold;
+
+}
+
+.name3{
+  border: solid black 0.1em;
+  display: flex;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  background-color:  #E5D198;
+  width: 30%;
+  padding: 2%;
+  font-size: 15px;
+  justify-content: center;
+  font-weight: bold;}
+
+
+ @media (min-width: 414px) and (max-width: 1000px){
+  .col-lg-3{
+    padding-top: 10%;
+  }
+ }
+ 
+ @media (min-width: 768px) and (max-width: 992px){
+  .box1{
+    position: relative;
+    left: 100px;
+  }
+}
+
+  @media (min-width: 1000px) and (max-width: 1587px){
+    .main{
+      position: relative;
+      right: 130px;
+    }
+    .section{
+      position: relative;
+      left: 100px;
+    }
+  }
+
